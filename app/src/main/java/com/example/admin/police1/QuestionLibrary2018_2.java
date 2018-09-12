@@ -189,7 +189,7 @@ public class QuestionLibrary2018_2 {
                     "mindful",
                     "indifferent"},
 
-            {" ㉠ for example\t㉡ Even though",
+            {"㉠ for example\t㉡ Even though",
                     "㉠ in addition\t㉡ Therefore",
                     "㉠ for instance\t㉡ Despite",
                     "㉠ however\t\t㉡ In conclusion"},
@@ -263,17 +263,17 @@ public class QuestionLibrary2018_2 {
             "3",
             "2",
 
-            "조선 명종 때 직전법이 폐지됨에 따라 자영농의 숫자가 급속히 늘어나게 되었다.",
-            "소과 복시의 합격자 수는 각 도의 인구 비율로 배분되었다.",
-            "㉠ → ㉡ → ㉢ → ㉣",
-            "호론의 주장에는 청나라를 중화로 보려는 대의명분론이 깔려 있었다.",
-            "㉡ → ㉢ → ㉣ → ㉠",
+            "prosperous",
+            "㉠ for example\t㉡ Even though",
+            "대학들은 소외계층 사람들을 모집하는 데 주력하고 있다.",
+            "남아메리카의 아이들은 명시된 취침 시간이 없다.",
+            "The recession of Ireland in 2007 was caused by a housing collapse.",
 
-            "정치 제도를 개혁하기 위하여 비변사의 기능을 강화하였다.",
-            "‘대한국국제’는 황제에게 육·해군의 통수권이 있음을 명시하였다.",
-            "㉠, ㉢",
-            "중추원은 총독부 자문기구로서 1919년 3·1 운동이 일어나기 전까지는 수시로 개최되어 식민 행정에 간여하였다.",
-            "㉠ → ㉡ → ㉣ → ㉢"
+            "4",
+            "상황 변화에 대처하는 유연성을 가져라.",
+            "A special library usually focuses on a particular field.",
+            "㉠ arguing \t\t㉡ intimacy",
+            "피아노 칠 때 사용하는 근육이 통증에 미치는 영향"
     };
 
 

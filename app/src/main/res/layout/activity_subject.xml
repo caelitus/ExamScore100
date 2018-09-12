@@ -43,6 +43,17 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
 
+
+        <ImageButton
+            android:id="@+id/imageButton_criminal_p_2018_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/criminal_p"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
         <ImageButton
             android:id="@+id/imageButton_police_theory_2018_3"
             android:layout_width="wrap_content"
@@ -55,15 +66,7 @@
 
 
 
-        <ImageButton
-            android:id="@+id/imageButton_criminal_p_2018_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/criminal_p"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            />
+
 
 
 

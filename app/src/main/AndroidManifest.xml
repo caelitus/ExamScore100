@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="police"
+        android:label="police test"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -23,6 +23,9 @@
         <activity android:name=".QuizActivity2018_1"></activity>
         <activity android:name=".Result2018_1"></activity>
         <activity android:name=".QuizActivity2018_2"></activity>
+        <activity android:name=".QuizActivity2018_3"></activity>
+        <activity android:name=".QuizActivity2018_4"></activity>
+        <activity android:name=".QuizActivity2018_5"></activity>
     </application>
 
 </manifest>

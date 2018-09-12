@@ -59,7 +59,7 @@ public class SubjectActivity extends AppCompatActivity {
              @Override
              public void onClick(View v) {
 
-                 Intent intent = new Intent(SubjectActivity.this,QuizActivity2017_1.class);
+                 Intent intent = new Intent(SubjectActivity.this,QuizActivity2018_3.class);
                  startActivity(intent);
 
              }
@@ -69,6 +69,10 @@ public class SubjectActivity extends AppCompatActivity {
              @Override
              public void onClick(View v) {
 
+                 Intent intent = new Intent(SubjectActivity.this,QuizActivity2018_4.class);
+                 startActivity(intent);
+
+
              }
          });
 
@@ -76,6 +80,9 @@ public class SubjectActivity extends AppCompatActivity {
          imageButton_police_theory_2018_3.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
+
+                 Intent intent = new Intent(SubjectActivity.this,QuizActivity2018_5.class);
+                 startActivity(intent);
 
 
 
