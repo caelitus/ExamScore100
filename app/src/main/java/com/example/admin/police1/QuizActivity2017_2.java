@@ -2,17 +2,17 @@ package com.example.admin.police1;
 
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 //
 
-public class QuizActivity2017_1 extends AppCompatActivity {
+public class QuizActivity2017_2 extends AppCompatActivity {
 
-    private  QuestionLibrary2017_1 mQuestionLibrary = new QuestionLibrary2017_1();
+    private  QuestionLibrary2017_2 mQuestionLibrary = new QuestionLibrary2017_2();
 
     public TextView mScoreView;
     public TextView mQuestionView;
@@ -20,7 +20,7 @@ public class QuizActivity2017_1 extends AppCompatActivity {
     public Button mButtonChoice2;
     public Button mButtonChoice3;
     public Button mButtonChoice4;
-    public ScrollView scrollView2017_1;
+    public ScrollView scrollView2017_2;
 
 
     public String mAnswer;
@@ -31,7 +31,7 @@ public class QuizActivity2017_1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_activity2017_1);
+        setContentView(R.layout.activity_quiz_activity2017_2);
 
         mScoreView = (TextView) findViewById(R.id.score);
         mQuestionView = (TextView) findViewById(R.id.question);
@@ -39,15 +39,15 @@ public class QuizActivity2017_1 extends AppCompatActivity {
         mButtonChoice2 = (Button) findViewById(R.id.choice2);
         mButtonChoice3 = (Button) findViewById(R.id.choice3);
         mButtonChoice4 = (Button) findViewById(R.id.choice4);
-        scrollView2017_1 = (ScrollView)findViewById(R.id.scrollView2017_1);
+        scrollView2017_2 = (ScrollView)findViewById(R.id.scrollView2017_2);
 
 
 
-        scrollView2017_1.fullScroll(ScrollView.FOCUS_UP);
+        scrollView2017_2.fullScroll(ScrollView.FOCUS_UP);
 
         updateQuestion();
 
-        scrollView2017_1.fullScroll(ScrollView.FOCUS_UP);
+        scrollView2017_2.fullScroll(ScrollView.FOCUS_UP);
 
         //Start of Button Listener for Button1
         mButtonChoice1.setOnClickListener(new View.OnClickListener() {
@@ -62,13 +62,13 @@ public class QuizActivity2017_1 extends AppCompatActivity {
 
                     //check before button start
 
-                    if (mQuestionNumber ==  QuestionLibrary2018_1.mQuestions.length) {
+                    if (mQuestionNumber ==  QuestionLibrary2017_2.mQuestions.length) {
 
-                        Intent i = new Intent(QuizActivity2017_1.this, Result2018_1.class);
+                        Intent i = new Intent(QuizActivity2017_2.this, Result2018_1.class);
                         Bundle bundle = new Bundle();
                         bundle.putDouble("finalScore", mScore);
                         i.putExtras(bundle);
-                        QuizActivity2017_1.this.finish();
+                        QuizActivity2017_2.this.finish();
                         startActivity(i);
 
                     } else {
@@ -79,13 +79,13 @@ public class QuizActivity2017_1 extends AppCompatActivity {
 
                 } else {
 
-                    if (mQuestionNumber ==  QuestionLibrary2018_1.mQuestions.length) {
+                    if (mQuestionNumber ==  QuestionLibrary2017_2.mQuestions.length) {
 
-                        Intent i = new Intent(QuizActivity2017_1.this, Result2018_1.class);
+                        Intent i = new Intent(QuizActivity2017_2.this, Result2018_1.class);
                         Bundle bundle = new Bundle();
                         bundle.putDouble("finalScore", mScore);
                         i.putExtras(bundle);
-                        QuizActivity2017_1.this.finish();
+                        QuizActivity2017_2.this.finish();
                         startActivity(i);
 
                     } else {
@@ -110,13 +110,13 @@ public class QuizActivity2017_1 extends AppCompatActivity {
 
                     //check before button start
 
-                    if (mQuestionNumber ==  QuestionLibrary2018_1.mQuestions.length) {
+                    if (mQuestionNumber ==  QuestionLibrary2017_2.mQuestions.length) {
 
-                        Intent i = new Intent(QuizActivity2017_1.this, Result2018_1.class);
+                        Intent i = new Intent(QuizActivity2017_2.this, Result2018_1.class);
                         Bundle bundle = new Bundle();
                         bundle.putDouble("finalScore", mScore);
                         i.putExtras(bundle);
-                        QuizActivity2017_1.this.finish();
+                        QuizActivity2017_2.this.finish();
                         startActivity(i);
 
                     } else {
@@ -126,13 +126,13 @@ public class QuizActivity2017_1 extends AppCompatActivity {
 
                 } else {
 
-                    if (mQuestionNumber ==  QuestionLibrary2018_1.mQuestions.length) {
+                    if (mQuestionNumber ==  QuestionLibrary2017_2.mQuestions.length) {
 
-                        Intent i = new Intent(QuizActivity2017_1.this, Result2018_1.class);
+                        Intent i = new Intent(QuizActivity2017_2.this, Result2018_1.class);
                         Bundle bundle = new Bundle();
                         bundle.putDouble("finalScore", mScore);
                         i.putExtras(bundle);
-                        QuizActivity2017_1.this.finish();
+                        QuizActivity2017_2.this.finish();
                         startActivity(i);
 
                     } else {
@@ -162,13 +162,13 @@ public class QuizActivity2017_1 extends AppCompatActivity {
                     updateScore(mScore);
 
                     //check before button start
-                    if (mQuestionNumber ==  QuestionLibrary2018_1.mQuestions.length) {
+                    if (mQuestionNumber ==  QuestionLibrary2017_2.mQuestions.length) {
 
-                        Intent i = new Intent(QuizActivity2017_1.this, Result2018_1.class);
+                        Intent i = new Intent(QuizActivity2017_2.this, Result2018_1.class);
                         Bundle bundle = new Bundle();
                         bundle.putDouble("finalScore", mScore);
                         i.putExtras(bundle);
-                        QuizActivity2017_1.this.finish();
+                        QuizActivity2017_2.this.finish();
                         startActivity(i);
 
                     } else {
@@ -181,13 +181,13 @@ public class QuizActivity2017_1 extends AppCompatActivity {
 
                 } else {
 
-                    if (mQuestionNumber ==  QuestionLibrary2018_1.mQuestions.length) {
+                    if (mQuestionNumber ==  QuestionLibrary2017_2.mQuestions.length) {
 
-                        Intent i = new Intent(QuizActivity2017_1.this, Result2018_1.class);
+                        Intent i = new Intent(QuizActivity2017_2.this, Result2018_1.class);
                         Bundle bundle = new Bundle();
                         bundle.putDouble("finalScore", mScore);
                         i.putExtras(bundle);
-                        QuizActivity2017_1.this.finish();
+                        QuizActivity2017_2.this.finish();
                         startActivity(i);
 
                     } else {
@@ -212,13 +212,13 @@ public class QuizActivity2017_1 extends AppCompatActivity {
 
                     //check before button start
 
-                    if (mQuestionNumber ==  QuestionLibrary2018_1.mQuestions.length) {
+                    if (mQuestionNumber ==  QuestionLibrary2017_2.mQuestions.length) {
 
-                        Intent i = new Intent(QuizActivity2017_1.this, Result2018_1.class);
+                        Intent i = new Intent(QuizActivity2017_2.this, Result2018_1.class);
                         Bundle bundle = new Bundle();
                         bundle.putDouble("finalScore", mScore);
                         i.putExtras(bundle);
-                        QuizActivity2017_1.this.finish();
+                        QuizActivity2017_2.this.finish();
                         startActivity(i);
 
                     } else {
@@ -230,13 +230,13 @@ public class QuizActivity2017_1 extends AppCompatActivity {
 
                 } else {
 
-                    if (mQuestionNumber ==  QuestionLibrary2018_1.mQuestions.length) {
+                    if (mQuestionNumber ==  QuestionLibrary2017_2.mQuestions.length) {
 
-                        Intent i = new Intent(QuizActivity2017_1.this, Result2018_1.class);
+                        Intent i = new Intent(QuizActivity2017_2.this, Result2018_1.class);
                         Bundle bundle = new Bundle();
                         bundle.putDouble("finalScore", mScore);
                         i.putExtras(bundle);
-                        QuizActivity2017_1.this.finish();
+                        QuizActivity2017_2.this.finish();
                         startActivity(i);
 
                     } else {
@@ -252,7 +252,7 @@ public class QuizActivity2017_1 extends AppCompatActivity {
     }
 
     private void updateQuestion() {
-        scrollView2017_1.fullScroll(ScrollView.FOCUS_UP);
+        scrollView2017_2.fullScroll(ScrollView.FOCUS_UP);
 
 
         mQuestionView.setText(mQuestionLibrary.getQuestion(mQuestionNumber));
@@ -264,7 +264,7 @@ public class QuizActivity2017_1 extends AppCompatActivity {
         mAnswer = mQuestionLibrary.getCorrectAnswer(mQuestionNumber);
         mQuestionNumber++;
 
-        scrollView2017_1.fullScroll(ScrollView.FOCUS_UP);
+        scrollView2017_2.fullScroll(ScrollView.FOCUS_UP);
     }
 
 
@@ -273,7 +273,7 @@ public class QuizActivity2017_1 extends AppCompatActivity {
 
         mScoreView.setText("" + mScore);
 
-        scrollView2017_1.fullScroll(ScrollView.FOCUS_UP);
+        scrollView2017_2.fullScroll(ScrollView.FOCUS_UP);
 
     }
 }

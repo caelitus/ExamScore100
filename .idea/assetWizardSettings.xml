@@ -13,8 +13,9 @@
                       <PersistentState>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_android_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\admin" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_baseline_done_24px" />
+                            <entry key="sourceFile" value="C:\Program Files\vector\baseline-done-24px.svg" />
                           </map>
                         </option>
                       </PersistentState>

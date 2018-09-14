@@ -4,14 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="police test"
+        android:icon="@drawable/ic_exam"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoTitle">
         <activity
             android:name=".MainActivity"
-            android:label="police"
+            android:label="The Police"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,12 +20,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".SubjectActivity" />
-        <activity android:name=".QuizActivity2018_1"></activity>
-        <activity android:name=".Result2018_1"></activity>
-        <activity android:name=".QuizActivity2018_2"></activity>
-        <activity android:name=".QuizActivity2018_3"></activity>
-        <activity android:name=".QuizActivity2018_4"></activity>
-        <activity android:name=".QuizActivity2018_5"></activity>
+        <activity android:name=".SubjectActivity2017" />
+        <activity android:name=".QuizActivity2018_1" />
+        <activity android:name=".Result2018_1" />
+        <activity android:name=".QuizActivity2018_2" />
+        <activity android:name=".QuizActivity2018_3" />
+        <activity android:name=".QuizActivity2018_4" />
+        <activity android:name=".QuizActivity2018_5" />
+        <activity android:name=".QuizActivity2017_1" />
+        <activity android:name=".QuizActivity2017_2" />
+        <activity android:name=".FinalActivity" />
+
     </application>
 
 </manifest>

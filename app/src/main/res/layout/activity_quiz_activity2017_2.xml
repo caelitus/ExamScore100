@@ -3,7 +3,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
-    android:id="@+id/scrollView2017_1"
+    android:id="@+id/scrollView2017_2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -61,7 +61,8 @@
             android:padding="8dp"
             android:text="bird"
             android:textSize="19dp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/choice2"
@@ -72,7 +73,8 @@
             android:padding="8dp"
             android:text="door"
             android:textSize="19dp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/choice3"
@@ -83,7 +85,8 @@
             android:padding="8dp"
             android:text="rock"
             android:textSize="19dp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/choice4"
@@ -94,7 +97,8 @@
             android:padding="8dp"
             android:text="quit"
             android:textSize="19dp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textAllCaps="false"/>
 
 
 
