@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class FinalActivity extends AppCompatActivity {
+public class FinalActivity2017_2 extends AppCompatActivity {
 
     TextView textView;
     Button button_home;
@@ -15,7 +15,7 @@ public class FinalActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_final);
+        setContentView(R.layout.activity_final2017_2);
 
         textView = (TextView)findViewById(R.id.textView);
         button_home =(Button)findViewById(R.id.button_home);
@@ -23,7 +23,7 @@ public class FinalActivity extends AppCompatActivity {
         button_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FinalActivity.this,MainActivity.class);
+                Intent intent = new Intent(FinalActivity2017_2.this,MainActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubjectActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button_history_2017_3"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#15082C"
+            android:text="한 국 사"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/button_englash_2017_3"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#15082C"
+            android:text="영 어"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:id="@+id/button_criminal_law_2017_3"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#15082C"
+            android:text="형 법"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/button_criminal_p_2017_3"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#15082C"
+            android:text="형사소송법"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/button_police_theory_2017_3"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#15082C"
+            android:text="경찰학 개론"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

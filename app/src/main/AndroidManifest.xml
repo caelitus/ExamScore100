@@ -29,7 +29,7 @@
         <activity android:name=".QuizActivity2018_5" />
         <activity android:name=".QuizActivity2017_1" />
         <activity android:name=".QuizActivity2017_2" />
-        <activity android:name=".FinalActivity" />
+        <activity android:name=".FinalActivity2017_2" />
 
     </application>
 
