@@ -18,6 +18,23 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5091010687953685/5923829349">
+        </com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016 . 03 . 19 시행"
+            android:focusableInTouchMode="true"/>
+
 
 
 
@@ -61,7 +78,8 @@
             android:padding="8dp"
             android:text="bird"
             android:textSize="19dp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/choice2"
@@ -83,7 +101,8 @@
             android:padding="8dp"
             android:text="rock"
             android:textSize="19dp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/choice4"
@@ -94,7 +113,8 @@
             android:padding="8dp"
             android:text="quit"
             android:textSize="19dp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textAllCaps="false"/>
 
 
 

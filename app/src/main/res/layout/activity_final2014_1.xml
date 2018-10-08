@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.perfect.admin.police1.FinalActivity2014_1"
+    android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5091010687953685/5923829349">
+        </com.google.android.gms.ads.AdView>
+
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            android:background="#15082C"
+            android:gravity="center"
+            android:text="메인 으로"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_marginTop="50dp" />
+
+
+
+        <ExpandableListView
+            android:id="@+id/list_final_2014"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+          >
+
+
+        </ExpandableListView>
+
+
+
+
+
+</LinearLayout>

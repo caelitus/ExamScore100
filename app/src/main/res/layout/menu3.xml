@@ -3,7 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#ff0000">
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="문의 사항 및 건의사항이
+있으시면 언제든지 연락주세요.
+적극 반영 하겠습니다.
+ examscore100@gmail.com"
+        android:textColor="#15082C"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="25dp"
+        android:autoLink="email"
+        />
+
 
     <Button
         android:id="@+id/button3"
@@ -11,7 +28,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:text="Button" />
+        android:text="Button"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"/>
 
 
 </RelativeLayout>

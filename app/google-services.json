@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173282359612",
+    "firebase_url": "https://examscore100-d65f9.firebaseio.com",
+    "project_id": "examscore100-d65f9",
+    "storage_bucket": "examscore100-d65f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173282359612:android:6cbb997a74a4a6ed",
+        "android_client_info": {
+          "package_name": "com.perfect.admin.police1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173282359612-afefcenhq9lr3u6isefgbfp2iegvl08a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.perfect.admin.police1",
+            "certificate_hash": "0c3faba01529713d81b573d0280dd3004235dd70"
+          }
+        },
+        {
+          "client_id": "173282359612-t1h3oc3594uvpv2so9rrore9u6n1sa6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB4TTjyJutGV3A0sWkXYp6AHYUOLhMEAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173282359612-t1h3oc3594uvpv2so9rrore9u6n1sa6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

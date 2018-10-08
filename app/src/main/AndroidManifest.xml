@@ -2,6 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.admin.police1">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+
+
+
+
+        
+
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_exam"
@@ -10,8 +20,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoTitle">
         <activity
-            android:name=".MainActivity"
-            android:label="The Police"
+            android:name="com.perfect.admin.police1.MainActivity"
+            android:label="경찰공무원 기출문제"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,17 +29,46 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SubjectActivity" />
-        <activity android:name=".SubjectActivity2017" />
-        <activity android:name=".QuizActivity2018_1" />
-        <activity android:name=".Result2018_1" />
-        <activity android:name=".QuizActivity2018_2" />
-        <activity android:name=".QuizActivity2018_3" />
-        <activity android:name=".QuizActivity2018_4" />
-        <activity android:name=".QuizActivity2018_5" />
-        <activity android:name=".QuizActivity2017_1" />
-        <activity android:name=".QuizActivity2017_2" />
-        <activity android:name=".FinalActivity2017_2" />
+        <activity android:name="com.perfect.admin.police1.SubjectActivity" />
+        <activity android:name="com.perfect.admin.police1.SubjectActivity2017" />
+        <activity android:name="com.perfect.admin.police1.SubjectActivity2016" />
+        <activity android:name="com.perfect.admin.police1.SubjectActivity2015" />
+        <activity android:name="com.perfect.admin.police1.SubjectActivity2014" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2018_1" />
+        <activity android:name="com.perfect.admin.police1.Result2018_1" />
+        <activity android:name="com.perfect.admin.police1.Result2017_1" />
+        <activity android:name="com.perfect.admin.police1.Result2016_1" />
+        <activity android:name="com.perfect.admin.police1.Result2015_1" />
+        <activity android:name="com.perfect.admin.police1.Result2014_1" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2018_2" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2018_3" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2018_4" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2018_5" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2017_1" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2017_2" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2017_3" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2017_4" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2017_5" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2016_1" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2016_2" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2016_3" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2016_4" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2016_5" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2015_1" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2015_2" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2015_3" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2015_4" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2015_5" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2014_1" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2014_2" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2014_3" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2014_4" />
+        <activity android:name="com.perfect.admin.police1.QuizActivity2014_5" />
+        <activity android:name="com.perfect.admin.police1.FinalActivity2017_1" />
+        <activity android:name="com.perfect.admin.police1.FinalActivity2016_1" />
+        <activity android:name="com.perfect.admin.police1.FinalActivity2015_1" />
+        <activity android:name="com.perfect.admin.police1.FinalActivity2018_1" />
+        <activity android:name="com.perfect.admin.police1.FinalActivity2014_1" />
 
     </application>
 

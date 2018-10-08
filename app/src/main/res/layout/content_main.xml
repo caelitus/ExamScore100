@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,9 +9,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
+    tools:context="com.perfect.admin.police1.MainActivity"
     tools:showIn="@layout/app_bar_main"
     >
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5091010687953685/5923829349">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
 
     <FrameLayout
         android:layout_width="wrap_content"
@@ -20,137 +38,138 @@
     </FrameLayout>
 
 
-
-   <ScrollView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-      >
-
-
-
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:layout_height="wrap_content">
 
-        <TextView
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="2018년 3월24일 시행 "
-            android:gravity="center_horizontal"
-            android:layout_marginTop="50dp"
-
-            />
-
-        <Button
-            android:id="@+id/button2018_1"
-            android:layout_width="250dp"
-            android:layout_height="90dp"
-            android:text="2018년 기출 문제"
-            android:textColor="#ffffff"
-            android:textSize="22dp"
-            android:background="#15082C"
-            android:layout_gravity="center"
-            android:gravity="center"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="2018년 3월24일 시행 "
-            android:gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-
-            />
-
-        <Button
-            android:id="@+id/button2017_1"
-            android:layout_width="250dp"
-            android:layout_height="90dp"
-            android:text="2017년 기출 문제"
-            android:textColor="#ffffff"
-            android:textSize="22dp"
-            android:background="#15082C"
-            android:layout_gravity="center"
-            android:gravity="center"
-            />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="2018년 3월24일 시행 "
-            android:gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-
-            />
-
-        <Button
-            android:id="@+id/button2016_1"
-            android:layout_width="250dp"
-            android:layout_height="90dp"
-            android:text="2016년 기출 문제"
-            android:textColor="#ffffff"
-            android:textSize="22dp"
-            android:background="#15082C"
-            android:layout_gravity="center"
-            android:gravity="center"
-            />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="2018년 3월24일 시행 "
-            android:gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-
-            />
-
-        <Button
-            android:id="@+id/button2015_1"
-            android:layout_width="250dp"
-            android:layout_height="90dp"
-            android:text="2015년 기출 문제"
-            android:textColor="#ffffff"
-            android:textSize="22dp"
-            android:background="#15082C"
-            android:layout_gravity="center"
-            android:gravity="center"
-            />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="2018년 3월24일 시행 "
-            android:gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-
-            />
-
-        <Button
-            android:id="@+id/button2014_1"
-            android:layout_width="250dp"
-            android:layout_height="90dp"
-            android:text="2014년 기출 문제"
-            android:textColor="#ffffff"
-            android:textSize="22dp"
-            android:background="#15082C"
-            android:layout_gravity="center"
-            android:gravity="center"
-            />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
 
 
 
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/deleteadd2"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="2018년 3월24일 시행 "
+
+
+                />
+
+            <Button
+                android:id="@+id/button2018_1"
+                android:layout_width="250dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:background="#15082C"
+                android:gravity="center"
+                android:text="2018년 기출 문제"
+                android:textColor="#ffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="2017년 3월18일 시행 "
+
+                />
+
+            <Button
+                android:id="@+id/button2017_1"
+                android:layout_width="250dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:background="#15082C"
+                android:gravity="center"
+                android:text="2017년 기출 문제"
+                android:textColor="#ffffff"
+                android:textSize="22dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="2016년 3월19일 시행 "
+
+                />
+
+            <Button
+                android:id="@+id/button2016_1"
+                android:layout_width="250dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:background="#15082C"
+                android:gravity="center"
+                android:text="2016년 기출 문제"
+                android:textColor="#ffffff"
+                android:textSize="22dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="2015년 2월14일 시행 "
+
+                />
+
+            <Button
+                android:id="@+id/button2015_1"
+                android:layout_width="250dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:background="#15082C"
+                android:gravity="center"
+                android:text="2015년 기출 문제"
+                android:textColor="#ffffff"
+                android:textSize="22dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="2014년 3월15일 시행 "
+
+                />
+
+            <Button
+                android:id="@+id/button2014_1"
+                android:layout_width="250dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:background="#15082C"
+                android:gravity="center"
+                android:text="2014년 기출 문제"
+                android:textColor="#ffffff"
+                android:textSize="22dp" />
 
 
 
- </LinearLayout>
+
+        </LinearLayout>
 
     </ScrollView>
 
@@ -158,4 +177,8 @@
 
 
 
+
+
 </LinearLayout>
+
+
