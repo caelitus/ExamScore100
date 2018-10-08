@@ -62,7 +62,7 @@ public class Result2014_1 extends AppCompatActivity {
         score_text = findViewById(R.id.score_text);
         point = findViewById(R.id.point);
         button_home =(Button)findViewById(R.id.button_home);
-        button_final2014_1 = (Button)findViewById(R.id.button_final2014_1);
+
 
 
         Bundle bundle = getIntent().getExtras();

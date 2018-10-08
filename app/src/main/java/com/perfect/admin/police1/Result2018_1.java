@@ -12,6 +12,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 
 public class Result2018_1 extends AppCompatActivity {
 
@@ -31,6 +32,7 @@ public class Result2018_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.result2018_1);
+        MobileAds.initialize(this,"ca-app-pub-5091010687953685~3849411913");
 
 
 
@@ -57,7 +59,7 @@ public class Result2018_1 extends AppCompatActivity {
         score_text = findViewById(R.id.score_text);
         point = findViewById(R.id.point);
         button_home =(Button)findViewById(R.id.button_home);
-        button_final2018_1 = (Button)findViewById(R.id.button_final2018_1);
+
 
 
         Bundle bundle = getIntent().getExtras();

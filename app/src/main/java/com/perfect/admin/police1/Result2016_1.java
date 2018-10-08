@@ -12,6 +12,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 
 public class Result2016_1 extends AppCompatActivity {
 
@@ -30,6 +31,7 @@ public class Result2016_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.result2016_1);
+        MobileAds.initialize(this,"ca-app-pub-5091010687953685~3849411913");
 
         interstitialAd = new InterstitialAd(this);
         interstitialAd.setAdUnitId("ca-app-pub-5091010687953685/1487734194");
@@ -75,19 +77,7 @@ public class Result2016_1 extends AppCompatActivity {
             }
         });
 
-        button_final2016_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-
-                Intent intent = new Intent(Result2016_1.this,FinalActivity2016_1.class);
-                startActivity(intent);
-
-
-
-
-            }
-        });
     }
     public void displayAd2016(View view){
 
